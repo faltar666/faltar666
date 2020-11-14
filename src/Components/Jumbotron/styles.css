@@ -8,7 +8,6 @@
       rgba(0, 0, 0, 0.55) 100%
     ),
     url("../../Images/jumbotron.jpg");
-  background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -65,7 +64,96 @@
 }
 
 .photo__about {
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
+  height: 300px;
+  margin-top: 100px;
+  margin-left: -50px;
+}
+
+.text__about {
+  color: #fff;
+  font-weight: 500;
+  font-family: "Roboto Mono", monospace;
+}
+
+.text__about span {
+  color: #00c8ab;
+}
+
+.desc__about {
+  color: #fff;
+  margin-right: 130px;
+  margin-top: 70px;
+  font-family: "Roboto Mono", monospace;
+}
+
+.border__services {
+  position: relative;
+  padding: 90px;
+}
+
+.border__services:after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 25%;
+  height: 50%;
+  border-left: 10px solid #00c8ab;
+}
+
+.border__services2 {
+  position: relative;
+  padding: 90px;
+}
+
+.border__services2:after {
+  content: "";
+  position: absolute;
+  right: 0px;
+  top: 220px;
+  height: 50%;
+  border-right: 10px solid #00c8ab;
+}
+
+.row__services {
+  margin-top: -300px;
+  margin-left: 80px;
+}
+
+.title__services {
+  margin-top: 50px;
+  font-weight: 800;
+  letter-spacing: -10;
+  font-family: "Roboto Mono", monospace;
+}
+
+.img__card-service {
+  width: 100%;
+  height: 100%;
+}
+
+.card__services {
+  width: 14rem;
+  border: none;
+  margin-bottom: 40px;
+}
+
+.card__services-title {
+  margin-top: 40px;
+  font-weight: 600;
+  font-family: "Roboto Mono", monospace;
+}
+
+.card__services-text {
+  font-size: 14px;
+  color: #616161;
+  font-family: "Roboto Mono", monospace;
+}
+
+.row__skills {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.top__projects {
+  margin-top: 120px;
 }

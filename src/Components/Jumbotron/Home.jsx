@@ -12,7 +12,9 @@ function HomeJumbotron() {
       <Jumbotron fluid className="jumbotron__home">
         <div>
           <h1 className="title__1">
-            <span>Design & Build</span> <br /> Unique Things
+            <span>Design & Build</span>
+            <br />
+            Unique Things
           </h1>
           <Button variant="outline-light" className="btn__Get-Touch">
             <span> Get Touch Me </span>

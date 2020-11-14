@@ -1,0 +1,40 @@
+.cards {
+  text-shadow: 2px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+  border: none;
+}
+
+.bg__image {
+  height: 323px;
+  background-image: url("../../Images/card.png");
+  background-size: cover;
+  border-radius: 16px;
+}
+
+.name__card {
+  color: #fff;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.bg__image-project {
+  height: 373px;
+  background-image: url("../../Images/bg.png");
+  background-size: cover;
+  border-radius: 16px;
+}
+
+.text__projects-title {
+  color: #fff;
+  font-size: 18px;
+  margin-top: 30px;
+  font-family: "Roboto Mono", monospace;
+}
+
+.text__projects-desc {
+  color: #fff;
+  font-size: 12px;
+  margin: 0 20px 0 20px;
+  font-family: "Roboto Mono", monospace;
+}
