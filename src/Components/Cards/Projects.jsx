@@ -7,7 +7,7 @@ import { CardDeck, Card } from "react-bootstrap";
 function CardProjects(props) {
   return (
     <div>
-      <CardDeck style={{ marginTop: "180px" }}>
+      <CardDeck style={{ marginTop: "180px", width: "18rem" }}>
         <Card className="cards">
           <div className="bg__image-project">
             <h3 className="text__projects-title">{props.name}</h3>
